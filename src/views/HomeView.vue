@@ -31,7 +31,39 @@
         </div>
       </div>
     </div>
+    
   </div>
+  <div class="body container">
+    <div class="body__list-items">
+      <div>452637</div>
+      <div>nov,29,2019</div>
+      <div>alex petrov</div>
+      <div>$45</div>
+      <div class="Button__default--danger">draft</div>
+      <img src="@/assets/icon-arrow-down.svg" />
+
+    </div>
+    <div class="body__list-items">
+      <div>452637</div>
+      <div>nov,29,2019</div>
+      <div>alex petrov</div>
+      <div>$45</div>
+      <div class="Button__default--danger">draft</div>
+      <img src="@/assets/icon-arrow-down.svg" />
+
+    </div>
+    <div class="body__list-items">
+      <div>452637</div>
+      <div>nov,29,2019</div>
+      <div>alex petrov</div>
+      <div>$45</div>
+      <div class="Button__default--danger">draft</div>
+      <img src="@/assets/icon-arrow-down.svg" />
+
+    </div>
+
+  </div>
+
 </template>
 
 <script>
@@ -123,6 +155,22 @@
           }
         }
       }
+    }
+  }
+  .body{
+    &__list-items{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #1e2139 ;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      padding: 30px 20px;
+      margin: 10px;
+      border-radius: 30px;
+       img {
+         transform: rotate(270deg);
+       }
+
     }
   }
 </style>
